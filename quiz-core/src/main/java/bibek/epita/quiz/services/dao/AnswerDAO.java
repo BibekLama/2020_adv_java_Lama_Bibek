@@ -23,7 +23,7 @@ public class AnswerDAO extends GenericDAO<Answer, Long>{
 
 	@Override
 	public String getAllQuery() {
-		// TODO Auto-generated method stub
+		
 		return "from Answer";
 	}
 

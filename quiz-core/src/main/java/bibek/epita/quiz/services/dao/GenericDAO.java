@@ -10,8 +10,6 @@ import javax.persistence.Query;
 import javax.transaction.Transactional;
 import javax.transaction.Transactional.TxType;
 
-import org.hibernate.Session;
-
 public abstract class GenericDAO<T, I> {
 	
 	@PersistenceContext

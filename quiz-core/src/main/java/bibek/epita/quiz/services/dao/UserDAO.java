@@ -23,7 +23,7 @@ public class UserDAO extends GenericDAO<User, String>{
 
 	@Override
 	public String getAllQuery() {
-		// TODO Auto-generated method stub
+		
 		return "from User";
 	}
 
